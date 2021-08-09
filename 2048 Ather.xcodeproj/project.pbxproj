@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D6BABA26C100460042E0F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6BAB926C100460042E0F1 /* AppDelegate.swift */; };
+		38D6BABC26C100460042E0F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6BABB26C100460042E0F1 /* SceneDelegate.swift */; };
+		38D6BAC326C100640042E0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D6BAC226C100640042E0F1 /* Assets.xcassets */; };
+		38D6BAC626C100640042E0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D6BAC426C100640042E0F1 /* LaunchScreen.storyboard */; };
+		38D6BAD226C1019B0042E0F1 /* GameHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6BAD026C1019B0042E0F1 /* GameHomeViewController.swift */; };
+		38D6BAD326C1019B0042E0F1 /* GameHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D6BAD126C1019B0042E0F1 /* GameHomeViewController.xib */; };
+		38D6BAD526C102210042E0F1 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6BAD426C102210042E0F1 /* BoardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38D6BAB626C100460042E0F1 /* 2048 Ather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2048 Ather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D6BAB926C100460042E0F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38D6BABB26C100460042E0F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38D6BAC226C100640042E0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38D6BAC526C100640042E0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38D6BAC726C100640042E0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D6BAD026C1019B0042E0F1 /* GameHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHomeViewController.swift; sourceTree = "<group>"; };
+		38D6BAD126C1019B0042E0F1 /* GameHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameHomeViewController.xib; sourceTree = "<group>"; };
+		38D6BAD426C102210042E0F1 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D6BAB326C100460042E0F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D6BAAD26C100450042E0F1 = {
+			isa = PBXGroup;
+			children = (
+				38D6BAB826C100460042E0F1 /* 2048 Ather */,
+				38D6BAB726C100460042E0F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D6BAB726C100460042E0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D6BAB626C100460042E0F1 /* 2048 Ather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D6BAB826C100460042E0F1 /* 2048 Ather */ = {
+			isa = PBXGroup;
+			children = (
+				38D6BACF26C101460042E0F1 /* Assets */,
+				38D6BACE26C1012F0042E0F1 /* Delegates */,
+				38D6BACD26C101270042E0F1 /* View */,
+				38D6BAC426C100640042E0F1 /* LaunchScreen.storyboard */,
+				38D6BAC726C100640042E0F1 /* Info.plist */,
+			);
+			path = "2048 Ather";
+			sourceTree = "<group>";
+		};
+		38D6BACD26C101270042E0F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38D6BAD026C1019B0042E0F1 /* GameHomeViewController.swift */,
+				38D6BAD126C1019B0042E0F1 /* GameHomeViewController.xib */,
+				38D6BAD426C102210042E0F1 /* BoardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38D6BACE26C1012F0042E0F1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				38D6BAB926C100460042E0F1 /* AppDelegate.swift */,
+				38D6BABB26C100460042E0F1 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		38D6BACF26C101460042E0F1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				38D6BAC226C100640042E0F1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D6BAB526C100460042E0F1 /* 2048 Ather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D6BACA26C100640042E0F1 /* Build configuration list for PBXNativeTarget "2048 Ather" */;
+			buildPhases = (
+				38D6BAB226C100460042E0F1 /* Sources */,
+				38D6BAB326C100460042E0F1 /* Frameworks */,
+				38D6BAB426C100460042E0F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2048 Ather";
+			productName = "2048 Ather";
+			productReference = 38D6BAB626C100460042E0F1 /* 2048 Ather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D6BAAE26C100450042E0F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					38D6BAB526C100460042E0F1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 38D6BAB126C100450042E0F1 /* Build configuration list for PBXProject "2048 Ather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38D6BAAD26C100450042E0F1;
+			productRefGroup = 38D6BAB726C100460042E0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D6BAB526C100460042E0F1 /* 2048 Ather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D6BAB426C100460042E0F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D6BAC626C100640042E0F1 /* LaunchScreen.storyboard in Resources */,
+				38D6BAC326C100640042E0F1 /* Assets.xcassets in Resources */,
+				38D6BAD326C1019B0042E0F1 /* GameHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D6BAB226C100460042E0F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D6BABA26C100460042E0F1 /* AppDelegate.swift in Sources */,
+				38D6BAD526C102210042E0F1 /* BoardView.swift in Sources */,
+				38D6BABC26C100460042E0F1 /* SceneDelegate.swift in Sources */,
+				38D6BAD226C1019B0042E0F1 /* GameHomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38D6BAC426C100640042E0F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D6BAC526C100640042E0F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D6BAC826C100640042E0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38D6BAC926C100640042E0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38D6BACB26C100640042E0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLKK855V6Z;
+				INFOPLIST_FILE = "2048 Ather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhi.2048.-048-Ather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38D6BACC26C100640042E0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLKK855V6Z;
+				INFOPLIST_FILE = "2048 Ather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhi.2048.-048-Ather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D6BAB126C100450042E0F1 /* Build configuration list for PBXProject "2048 Ather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D6BAC826C100640042E0F1 /* Debug */,
+				38D6BAC926C100640042E0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D6BACA26C100640042E0F1 /* Build configuration list for PBXNativeTarget "2048 Ather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D6BACB26C100640042E0F1 /* Debug */,
+				38D6BACC26C100640042E0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D6BAAE26C100450042E0F1 /* Project object */;
+}
